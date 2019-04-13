@@ -1,0 +1,23 @@
+Summary:
+Correctly Classified Instances        2169               90.6773 %
+Incorrectly Classified Instances       223                9.3227 %
+Kappa statistic                          0.8135
+Mean absolute error                      0.1791
+Root mean squared error                  0.2758
+Relative absolute error                 35.8289 %
+Root relative squared error             55.154  %
+Total Number of Instances             2392     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.915    0.101    0.900      0.915    0.908      0.814    0.958     0.956     Y
+                 0.899    0.085    0.913      0.899    0.906      0.814    0.958     0.951     N
+Weighted Avg.    0.907    0.093    0.907      0.907    0.907      0.814    0.958     0.954     
+
+=== Overall Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1094  102 |    a = Y
+  121 1075 |    b = N
+
